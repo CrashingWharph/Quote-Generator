@@ -1,0 +1,2 @@
+# Quote-Generator
+Get Inspired
