@@ -1,0 +1,84 @@
+
+/* ------------------------------------------------ */
+                /* effects */
+/* ------------------------------------------------ */
+
+/* inactive */
+.neonText {
+  color: #fff;
+//   text-shadow:
+//       0 0 7px #fff,
+//       0 0 10px #fff,
+//       0 0 21px #fff,
+//       0 0 42px #0fa,
+//       0 0 82px #0fa,
+//       0 0 92px #0fa,
+//       0 0 102px #0fa,
+//       0 0 151px #0fa;
+}
+
+h1 {
+    animation: flicker 3s linear infinite;
+}
+
+/* quote effct */
+span {
+	--offset: 2;
+    color: black;
+    position: absolute;
+	left: calc(var(--offset) * 1ch + calc(var(--offset) * 0.2ch));
+	animation: flicker 4s linear infinite;
+}
+
+// keyframe
+@keyframes flicker {
+	0%, 19.9%, 22%, 62.9%, 64%, 64.9%, 70%, 100% {
+		opacity: 0.99;
+		// text-shadow: 
+		// 	-1px -1px 0 rgba(255,255,255, 0.4), 
+		// 	1px -1px 0 rgba(255,255,255, 0.4), 
+		// 	-1px 1px 0 rgba(255,255,255, 0.4), 
+		// 	1px 1px 0 rgba(255,255,255, 0.4), 
+		// 	0 -2px 8px, //default color
+		// 	0 0 2px, //default color
+		// 	0 0 5px #ff7e00, 
+		// 	0 0 15px #ff4444, 
+		// 	0 0 2px #ff7e00, 
+		// 	0 2px 3px #000;
+	}
+	20%, 21.9%, 63%, 63.9%, 65%, 69.9% {
+		opacity: 0.4;
+		text-shadow: none;
+	}
+}
+
+fieldset {
+	font-family: "Fira Mono", monospace;
+	border: none;
+	position: absolute;
+	bottom: 20px;
+	color: #a3a3a3;
+}
+
+label {
+	font-size: 14px;
+}
+
+input {
+	background: #a3a3a3;
+	border: 1px solid #000;
+}
+
+/* removed  */
+/* body {
+	background: linear-gradient(45deg, #2d2d2d 9%, #000000dd 100%);
+	height: 30vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+} 
+
+transform: translate(0, 10px); 
+text-align: center;
+  
+*/

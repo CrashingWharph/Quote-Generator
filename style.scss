@@ -1,0 +1,33 @@
+
+// scss files
+@use './effects.scss';
+@use './module.scss';
+
+// sass --watch style.scss css/style.css
+
+// html
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    margin: 100px 0 0 0;
+    background-image: url("../img/turkey_tree.jpg");
+    background-size: cover;
+  }
+
+  /* quote */
+.text {
+	font-family: "Fira Mono", monospace;
+	font-weight: 700;
+    line-height: 1.2;
+    padding: 10px 40px;
+	text-transform: uppercase;
+	letter-spacing: 0.2ch;
+	font-size: 1.2vw;
+    text-align: left;
+}
+
