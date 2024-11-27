@@ -1,4 +1,5 @@
-# Quote-Generator
+# Quote Generator
+My favourite quotes to date
 Get Inspired
 
 # preview
