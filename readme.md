@@ -1,6 +1,6 @@
 # Quote Generator
-My favourite quotes to date
-Get Inspired
+My favourite quotes to date.
+Get Inspired.
 
 # preview
 https://crashingwharph.github.io/Quote-Generator/
