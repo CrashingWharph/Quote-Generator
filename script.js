@@ -35,10 +35,6 @@ const quotes = [
       author: " Theodore Roosevelt ",
     },
     { 
-      quote: " Never above you. Never below you. Always beside you. ",
-      author: " Walter Winchell ",
-    },
-    { 
       quote: " The Score Takes Care of Itself ",
       author: " Bill Walsh's ",
     },
