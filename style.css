@@ -75,13 +75,6 @@ text-align: center;
   display: flex;
   position: relative;
   flex-direction: column;
-  /* box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.455);
-  background-image: url("./img/vecteezy_green-grunge-free-vector-texture_108622.jpg");
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat; 
-  width: 75vh;
-  height: 40vh; */
 }
 
 .content, #name {
@@ -90,7 +83,6 @@ text-align: center;
   justify-content: center;
   align-items: center;
   position: relative;
-  /* transform: scale(1.2); */
 }
 
 /* parent 2 */
@@ -100,7 +92,7 @@ text-align: center;
   margin-bottom: 20px;
   position: relative; 
   box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.455);  
-  background-image: url("img/yellow-grunge-background.jpg");
+  background-image: url("../img/yellow-grunge-background.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
