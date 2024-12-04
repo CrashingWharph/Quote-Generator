@@ -1,7 +1,7 @@
 # Quote Generator
 My favourite quotes to date.
 
-# preview
+# Clink link below to see preview
 https://crashingwharph.github.io/Quote-Generator/
 
 # project info
