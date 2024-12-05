@@ -19,11 +19,11 @@ const quotes = [
       author: " Severous Snape ",
     },
     { 
-      quote: " In the first law, an object will not change its motion unless a force acts on it ",
+      quote: " In the first law, an object will not change its motion unless a force acts on it. ",
       author: " Isac Newton ",
     },
     { 
-      quote: " The world is the reason I'm alive ",
+      quote: " The world is the reason I'm alive. ",
       author: " Alan Watts ",
     },
     { 
@@ -35,11 +35,11 @@ const quotes = [
       author: " Theodore Roosevelt ",
     },
     { 
-      quote: " The Score Takes Care of Itself ",
+      quote: " The Score Takes Care of Itself. ",
       author: " Bill Walsh's ",
     },
     { 
-      quote: " Wherever you go, no matter what the weather, always bring your own sunshine",
+      quote: " Wherever you go, no matter what the weather, always bring your own sunshine.",
       author: " Anthony J. D'Angelo ",
     },
 ];
