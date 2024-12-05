@@ -7,10 +7,6 @@ const interval = 3000;
 // quotes 
 const quotes = [ 
     { 
-      quote: " Being different isn't a bad thing. I mean that you are brave enough to be yourself.", 
-      author: " Luna lovegood ",
-    }, 
-    { 
       quote: " No one can make you feel inferior without your consent. ",
       author: " Eleanor Roosevelt ",
     },
